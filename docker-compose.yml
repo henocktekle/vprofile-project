@@ -34,7 +34,7 @@ services:
     image: henocktekle/vprofileweb
     container_name: vproweb
     ports:
-      - '5632:80'
+      - '80:80'
 volumes:
   vprodbdata: {}
   vproappdata: {}
